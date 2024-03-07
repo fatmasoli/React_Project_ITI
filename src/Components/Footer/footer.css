@@ -1,0 +1,63 @@
+.footer {
+  background-color: #0f4123;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer__logo-text {
+  font-size: 24px;
+}
+
+.footer__text {
+  font-size: 14px;
+}
+
+.footer__col {
+  margin-bottom: 30px;
+}
+
+.footer__title {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer__list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer__item {
+  margin-bottom: 10px;
+}
+
+.footer__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__icon {
+  margin-right: 10px;
+}
+
+.footer__contact-info {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer__bottom {
+  margin-top: 50px;
+  border-top: 1px solid #196548;
+  padding-top: 20px;
+}
+
+.footer__copyright {
+  font-size: 14px;
+}
+
+.footer__copyright span {
+  font-weight: bold;
+}

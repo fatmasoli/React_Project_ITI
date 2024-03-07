@@ -1,0 +1,104 @@
+.hero__section{
+    background: rgb(24, 82, 65);
+}
+.hero__content{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.hero__content h2{
+    color: rgb(244, 255, 249);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 15px 0;
+}
+.hero__content p:first-child {
+    font-weight: 600;
+}
+.hero__content p {
+    color: rgb(236, 255, 248) !important;
+    line-height: 28px !important;
+}
+.buy__btn{
+    border: none;
+    outline: none;
+    background:#024a38;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 1rem;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.buy__btn a{
+    color: #fff;
+}
+.timer__count{
+    background: var(--primary-color);
+    position: relative;
+    height: 300px;
+}
+
+.timer__count img{
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+.store__btn{
+    background: #fff;
+    color:  var(--primary-color);
+}
+.store__btn a{
+    color:  var(--primary-color);
+    font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+    .hero__content h2{
+        font-size: 2rem;
+    }
+    .counter__img{
+        display: none;
+    }
+    .timer__count{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero__content h2{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .hero__section{
+        padding-top: 0 !important;
+    }
+    .hero__content p {
+        font-size: 0.9rem;
+    }
+    .buy__btn{
+        margin-top: 10px;
+    }
+    .buy__btn{
+        font-size: 0.9rem;
+    }
+}
+.carousel__section {
+    background-color: #b1bbb4; /* Add background color */
+    padding: 50px 0; /* Add padding for spacing */
+  }
+  
+  .carousel {
+    width: 70%; /* Adjust the width of the carousel */
+    margin: auto; /* Center the carousel */
+  }
+  
+  .carousel-item img {
+    width: 100%; /* Make the images fill the carousel */
+    height: auto; /* Maintain aspect ratio */
+  }
+  center{
+    display:  inline-block;
+  }
+  
+  
